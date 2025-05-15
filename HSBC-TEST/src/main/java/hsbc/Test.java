@@ -4,6 +4,11 @@ import java.util.*;
 
 public class Test {
 
+    /**
+     * Stage1
+     * @param s
+     * @return
+     */
     public static List<String> processString1(String s) {
         List<String> result = new ArrayList<String>();
         boolean changed;
@@ -31,7 +36,11 @@ public class Test {
         return result;
     }
 
-
+    /**
+     * Stage2
+     * @param s
+     * @return
+     */
     public static List<String> processString2(String s) {
         List<String> result = new ArrayList<>();
         boolean changed;
